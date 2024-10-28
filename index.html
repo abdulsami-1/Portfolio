@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h1>Abdul Sami</h1>
+            <p>front-end Developer & Designer</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate full-stack developer skilled in modern web technologies, dedicated to creating elegant
+                and efficient solutions that make a real impact. With expertise in both front-end (React.js, JavaScript,
+                HTML5, CSS3) and back-end development (C++, SQL), I focus on building responsive, user-centric web
+                applications. I prioritize writing clean, maintainable code and excel in problem-solving, collaboration,
+                and communication. I am currently seeking opportunities to contribute to challenging projects that allow
+                me to leverage my technical skills while continuing to grow as a developer.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-project="1">
+                    <h3>Calculator</h3>
+                    <p>A simple yet functional calculator built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card" data-project="2">
+                    <h3>Music Player</h3>
+                    <p>An interactive music player developed using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project-card" data-project="3">
+                    <h3>Amazon Clone</h3>
+                    <p>A simplified clone of the Amazon e-commerce platform created with HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <img id="modal-image" src="" alt="Project Image">
+        </div>
+    </div>
+
+    <script src="appp.js">
+
+    </script>
+</body>
+
+</html>
